@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- '<____>' tag elements let the computer know what kind of entity/file it is reading and in what language -->
+<html lang="en">
+
+<!-- '<head>' is where you provide your html with context in order to function properly with both your css and js. you can also look here to change the title and favicon -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- '<title>' is the title of your website [shows in your tab] -->
+    <title>My First Website</title>
+
+    <!-- 'stylesheet' linking to your css folder and then your css file to your html -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<!--the '<body>' is where your website code lives as its main container... just like your guts!-->
+
+<body>
+
+    <!-- '<header>' is like the '<div>' element except that it fixes your div to the top of your page to act as a header -->
+    <header>
+
+        <div class="titlecard">
+
+            <h1>
+                <a href="index.html">
+                    NETVERSE
+                </a>
+            </h1>
+
+        </div>
+
+        <nav>
+            <a href="art.html">
+                <button>
+                    gallery
+                </button>
+            </a>
+
+            <a href="abtme.html">
+                <button>
+                    about me
+                </button>
+            </a>
+
+            <a href="contact.html">
+                <button>
+                    contact
+                </button>
+            </a>
+        </nav>
+
+        <audio controls src="media/onlymp3.to - Main Theme Luigi s Mansion-dM3Swv9s2kQ-192k-1704821892.mp3"></audio>
+
+
+    </header>
+
+    <div class="left">
+
+        <img id="pfp" src="media/profilepic.jpg">
+
+        <div>
+            <p id="subtext"><b>Welcome to my Website! This is where I talk about my favorite things. It can be a
+                    portfolio, a comic book, a blog, or anything at all! Websites can be way more than just a blank
+                    canvas.</b>
+            </p>
+            <img id="cursor" src="media/cursor.gif">
+            <p id="subtext">Inspect Element my code to see how it's made!</p>
+        </div>
+
+        <button><b>how to inspect element</b></button>
+
+    </div>
+
+    <!-- like the header, the '<main>' also serves as a div except that it is the primary content at the center of your page -->
+    <main id="indexmain">
+
+        <video controls>
+            <source src="media/greenscreen.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div>
+            <img id="star" src="media/Yellow-Star-PNG-Clipart.png">
+            <img id="star" src="media/Yellow-Star-PNG-Clipart.png">
+            <img id="star" src="media/Yellow-Star-PNG-Clipart.png">
+            <img id="star" src="media/Yellow-Star-PNG-Clipart.png">
+            <img id="star" src="media/Yellow-Star-PNG-Clipart.png">
+
+        </div>
+
+
+    </main>
+
+    <div class="right">
+
+        <img id="pfp" src="media/luigidance.gif">
+
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/2nVphQJb0Eo1ujpdzdF7Db?utm_source=generator" width="90%"
+            height="50%" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+        </iframe>
+
+
+
+    </div>
+
+
+    <!--'<footer>' assigns this element to be fixed at the bottom of your page-->
+    <footer>
+
+        <marquee id="subtexta" behavior="alternate">✧ Web Art & Web Dev Example Webpage ✧</marquee>
+
+    </footer>
+
+</body>
+
+</html>
