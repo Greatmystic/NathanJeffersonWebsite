@@ -1,0 +1,110 @@
+html {
+    background: black;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: LordinaSolid;
+    src: url(../Fonts/LondrinaSolid-Regular.ttf);
+}
+
+@font-face {
+    font-family: myHandwriting;
+    src: url(../Fonts/MA.ttf);
+}
+
+.titletxt {
+    font-family: LordinaSolid;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitletxt {
+    font-family: myHandwriting;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+}
+
+/* ------------ INDEX ------------ */
+
+.titlecard {
+    width: 55%;
+    margin: auto;
+}
+
+/* border line under title */
+hr {
+    border-top: 5px solid white;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+}
+
+button {
+    border: 5px solid white;
+    background: black;
+    margin-left: 2%;
+    width: 8rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+
+/* queryselector button margin mobile*/
+
+
+.buttontxt {
+    font-family: myHandwriting;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    border: solid white 5px;
+    height: 6rem;
+    margin: 0% 5% 0% 5%;
+    bottom: 0;
+    text-align: center;
+}
+
+svg{
+    margin: 0% 1% 0% 1%;
+}
+
+#indeximg {
+    height: 25rem;
+}
+
+#indexmain {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 46.25%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+}
+
