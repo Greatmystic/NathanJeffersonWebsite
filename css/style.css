@@ -73,6 +73,28 @@ button {
     text-align: center;
 }
 
+@keyframes colorChange {
+    0% {
+        background-color: #009420; /* Start with black */
+    }
+    33% {
+        background-color: #db1251; /* Change to pastel red */
+    }
+    66% {
+        background-color: #0aa4fd; /* Change to light blue */
+    }
+    100% {
+        background-color: #009420; /* Change to light green */
+    }
+}
+
+button:hover{
+    animation: colorChange 6s infinite; /* Play the animation on hover */
+    background-color: #db1251; /* Set final color on hover */
+    border-color: rgb(255, 208, 0);
+}
+
+
 footer {
     border: solid white 5px;
     height: 6rem;
@@ -81,8 +103,37 @@ footer {
     text-align: center;
 }
 
+
 svg{
     margin: 0% 1% 0% 1%;
+}
+#linkedin path:hover{
+    fill: #0085dd; /* Fill color on hover */
+}
+
+#twitter path:hover{
+    fill: #0ff2fa; /* Fill color on hover */
+}
+
+#discord path:hover{
+    fill: #4812db; /* Fill color on hover */
+}
+
+#instagram path:hover{
+    fill: #ff9113; /* Fill color on hover */
+}
+
+#tumblr path:hover{
+    fill: #0074d3; /* Fill color on hover */
+}
+
+#patreon path:hover{
+    fill: #ff7e05; /* Fill color on hover */
+}
+
+
+#youtube path:hover{
+    fill: #db1251; /* Fill color on hover */
 }
 
 #indeximg {
