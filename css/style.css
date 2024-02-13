@@ -1,12 +1,18 @@
 html {
-    background: black;
+    background: rgb(0, 0, 0);
     height: 100%;
     width: 100%;
 }
 
+
+
 a {
     text-decoration: none;
 }
+
+
+/*Pattern*/
+
 
 @font-face {
     font-family: LordinaSolid;
@@ -163,10 +169,11 @@ svg{
 /* Contact Form*/
 
 .container {
+    transform: translateY(5%);
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #8facd8;
+    background-color: #c21b1b;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
@@ -211,6 +218,136 @@ svg{
     text-align: center;
 }
 
-  
+/* gallery nav bar */
 
+.centered-nav {
+  text-align: center;
+  padding: 100px 0; /* Increase the padding-top */
+  font-size: 50px;
+}
+
+.centered-nav a {
+  font-family: myHandwriting;
+  text-decoration: none;
+  color: #ffffff; /* Change color as needed */
+  margin: 0 10px; /* Adjust spacing between links */
+}
+
+.centered-nav a.active {
+  color: yellow; /* Change color to yellow for active link */
+}
+
+/* gallery nav bar */
+
+.centered-nav {
+    text-align: center;
+    padding: 100px 0; /* Increase the padding-top */
+    font-size: 50px;
+  }
   
+  .centered-nav a {
+    font-family: myHandwriting;
+    text-decoration: none;
+    color: #ffffff; /* Change color as needed */
+    margin: 0 10px; /* Adjust spacing between links */
+  }
+  
+  .centered-nav a.active {
+    color: yellow; /* Change color to yellow for active link */
+  }
+  
+/* gallery nav bar */
+
+.centered-nav {
+    text-align: center;
+    padding: 100px 0; /* Increase the padding-top */
+    font-size: 50px;
+  }
+  
+  .centered-nav a {
+    font-family: myHandwriting;
+    text-decoration: none;
+    color: #ffffff; /* Change color as needed */
+    margin: 0 10px; /* Adjust spacing between links */
+  }
+  
+  .centered-nav a.active {
+    color: yellow; /* Change color to yellow for active link */
+  }
+  
+/* GALLERY VIDEO ITEM BOX */
+
+.gallery {
+    display: absolute;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.gallery-item {
+    display: flex;
+    background-color: black;
+    border: 2px solid white;
+    margin: 0 auto; /* Center the gallery item horizontally */
+    margin-bottom: 30px;
+    max-width: 100%; /* Ensure the item doesn't exceed the width of its container */
+}
+
+.videowrapper {
+    width: 180%; /* Adjust the width to leave space for the info section */
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio (16:9) */
+    height: 100%;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+
+    font-family: myHandwriting;
+    width: 50%; /* Set width to accommodate the info section */
+    padding: 20px 0px 0px 300px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 24px;
+}
+
+.info h3 {
+    font-family: myHandwriting;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+/* Hide the entire gallery item on screens smaller than 768px (typical mobile devices) */
+@media screen and (max-width: 1450px) {
+    .gallery-item {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .videowrapper {
+        width: 300px;
+        position: relative;
+        height: 300px;
+    }
+    
+
+
+    .info h3 {
+        font-size: 24px;
+    }
+}
