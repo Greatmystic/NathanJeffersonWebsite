@@ -75,7 +75,7 @@ button {
 
 @keyframes colorChange {
     0% {
-        background-color: #009420; /* Start with black */
+        background-color: #f1d900; /* Start with black */
     }
     33% {
         background-color: #db1251; /* Change to pastel red */
@@ -83,14 +83,14 @@ button {
     66% {
         background-color: #0aa4fd; /* Change to light blue */
     }
-    100% {
-        background-color: #009420; /* Change to light green */
+    90% {
+        background-color: #00a16c; /* Change to light green */
     }
 }
 
 button:hover{
-    animation: colorChange 6s infinite; /* Play the animation on hover */
-    background-color: #db1251; /* Set final color on hover */
+    animation: colorChange 6s; /* Play the animation on hover */
+    background-color: #00a16c; /* Set final color on hover */
     border-color: rgb(255, 208, 0);
 }
 
@@ -159,3 +159,58 @@ svg{
     left: 10%;
 }
 
+
+/* Contact Form*/
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8facd8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  h2 {
+    font-family: myHandwriting;
+    text-align: center;
+  }
+  
+  .form-group {
+    font-size: 80;
+    font-family: myHandwriting;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #c59700;
+    border-radius: 10px; /* Adjust the border-radius for rounded square shape */
+    outline: none; /* Remove the default outline */
+    resize: none; /* Prevent resizing */
+  }
+  
+  textarea {
+    height: 120px;
+  }
+  
+  .buttontxt2 {
+    font-family: myHandwriting;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+  
+
+  
