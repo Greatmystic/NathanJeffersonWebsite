@@ -351,3 +351,66 @@ svg{
         font-size: 24px;
     }
 }
+
+/* HOCHI MAMA! GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE */
+
+.containerimg {
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.art-piece {
+    cursor: pointer;
+}
+
+.art-piece img {
+    width: 100%;
+    height: auto;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.lightbox-content {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
