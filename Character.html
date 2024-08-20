@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- '<____>' tag elements let the computer know what kind of entity/file it is reading and in what language -->
+<html lang="en">
+
+<!-- '<head>' is where you provide your html with context in order to function properly with both your css and js. you can also look here to change the title and favicon -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- '<title>' is the title of your website [shows in your tab] -->
+    <title>Nathan Jefferson Animation</title>
+    <!-- 'stylesheet' linking to your css folder and then your css file to your html -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<!--the '<body>' is where your website code lives as its main container... just like your guts!-->
+
+<body>
+
+    <!-- '<header>' is like the '<div>' element except that it fixes your div to the top of your page to act as a header -->
+    <header>
+
+        <div class="titlecard">
+
+            <a href="index.html">
+                <h1 class="titletxt">
+                    Nathan Jefferson Animation
+                </h1>
+            </a>
+            <hr>
+            <h1 class="subtitletxt">CHARACTER</h1>
+
+        </div>
+
+        <nav>
+            <a href="galleryanimation.html">
+                <button class="buttontxt">
+                    Storyboard
+                </button>
+
+                <a href="Character.html">
+                    <button class="buttontxt">
+                        Character
+                    </button>
+
+
+            <a href="gallery.html">
+
+                <button class="buttontxt">
+                    Animation
+                </button>
+            </a>
+
+            <a href="about.html">
+                <button class="buttontxt">
+                    About
+                </button>
+            </a>
+
+            <a href="contact.html">
+                <button class="buttontxt">
+                    Contact
+                </button>
+            </a>
+
+            <a href="resume.html">
+                <button class="buttontxt">
+                    Resume
+                </button>
+            </a>
+
+            <a href="gallery-MA.html">
+                <button class="buttontxt">
+                    BFA
+                </button>
+            </a>
+        </nav>
+
+
+    </header>
+
+
+
+
+        <p class="subtitletxt">☮ Personal and Project Character Designs ☮</p>
+      
+    </div>
+    <div class="containerimg">
+        <div class="grid-container">
+            <div class="art-piece">
+                <img src="images/toby.png" alt="Art 1">
+            </div>
+            <div class="art-piece">
+                <img src="images/Bernard.jpg" alt="Art 2">
+            </div>
+            <div class="art-piece">
+                <img src="images/admystic.png" alt="Art 3">
+            </div>
+            <div class="art-piece">
+                <img src="images/cat.png" alt="Art 3">
+            </div>
+            <div class="art-piece">
+                <img src="images/MysticPonch.png" alt="Art 3">
+            </div>
+            <div class="art-piece">
+                <img src="images/roger.png" alt="Art 3">
+            </div>
+            <div class="art-piece">
+                <img src="images/aldana.png" alt="Art 3">
+            </div>
+            <div class="art-piece">
+                <img src="images/meltom.png" alt="Art 3">
+            </div>
+            <div class="art-piece">
+                <img src="images/maricharacters.png" alt="Art 3">
+            </div>
+            <!-- Add more art pieces as needed -->
+        </div>
+    </div>
+    
+    <div class="lightbox" id="lightbox">
+        <span class="close" id="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    
+    <script src="js/script.js"></script>
+
+    
+
+    <div>
+    <!-- like the header, the '<main>' also serves as a div except that it is the primary content at the center of your page -->
+      
+
+
+        <main id="indexmain">
+            <div>
+            </div>
+
+            <p class="subtitletxt">☮ Creating Worlds for Passion and Adventure ☮</p>
+            <p>a collaborate hand-written code portfolio for my art and tech bfa </p>
+        </main>
+
+
+        <!--'<footer>' assigns this element to be fixed at the bottom of your page-->
+        <footer>
+            <!--Discord-->
+            <a href="https://discordapp.com/users/161567689846816768">
+                <svg id="discord" position="relative" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M83.1333 23.6333C75.2 17.2542 62.65 16.175 62.1167 16.1292C61.2792 16.0583 60.4834 16.5333 60.1417 17.3C60.1167 17.35 59.8417 17.9792 59.5375 18.9583C64.7833 19.8417 71.2292 21.625 77.0625 25.2458C77.9959 25.825 78.2833 27.0542 77.7042 27.9917C77.3292 28.6 76.675 28.9333 76.0084 28.9333C75.65 28.9333 75.2875 28.8375 74.9584 28.6333C64.9333 22.4167 52.4084 22.1042 50 22.1042C47.5917 22.1042 35.0625 22.4167 25.0459 28.6333C24.1084 29.2167 22.8834 28.925 22.3 27.9917C21.7167 27.0542 22.0084 25.8292 22.9417 25.2458C28.775 21.6292 35.2167 19.8417 40.4667 18.9583C40.1584 17.975 39.8834 17.35 39.8625 17.3C39.5167 16.5333 38.725 16.05 37.8834 16.1333C37.3542 16.175 24.8042 17.2542 16.7625 23.725C12.5625 27.6042 4.16669 50.3042 4.16669 69.9292C4.16669 70.275 4.25835 70.6167 4.42919 70.9167C10.225 81.0958 26.0334 83.7625 29.6375 83.8792C29.6584 83.8792 29.6792 83.8792 29.7 83.8792C30.3375 83.8792 30.9375 83.575 31.3125 83.0583L34.9584 78.05C25.1292 75.5083 20.1084 71.1958 19.8167 70.9417C18.9917 70.2125 18.9125 68.9542 19.6417 68.1292C20.3709 67.3042 21.625 67.225 22.45 67.95C22.5709 68.0583 31.8167 75.9042 50 75.9042C68.2167 75.9042 77.4625 68.025 77.5542 67.9458C78.3792 67.2292 79.6375 67.3042 80.3625 68.1333C81.0875 68.9583 81.0084 70.2125 80.1875 70.9375C79.8959 71.1958 74.875 75.5042 65.0459 78.0458L68.6917 83.0542C69.0667 83.5708 69.6667 83.875 70.3042 83.875C70.325 83.875 70.3459 83.875 70.3667 83.875C73.9709 83.7625 89.7792 81.0958 95.575 70.9125C95.7417 70.6125 95.8334 70.275 95.8334 69.9292C95.8334 50.3042 87.4375 27.6042 83.1333 23.6333ZM37.0459 61.9583C33.1959 61.9583 30.0709 58.3875 30.0709 53.9875C30.0709 49.5875 33.1917 46.0167 37.0459 46.0167C40.9 46.0167 44.0209 49.5875 44.0209 53.9875C44.0209 58.3875 40.9 61.9583 37.0459 61.9583ZM62.9542 61.9583C59.1042 61.9583 55.9792 58.3875 55.9792 53.9875C55.9792 49.5875 59.1 46.0167 62.9542 46.0167C66.8042 46.0167 69.9292 49.5875 69.9292 53.9875C69.9292 58.3875 66.8042 61.9583 62.9542 61.9583Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <!--Patreon-->
+            <svg id="patreon" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8.33331 12.5V87.5H25V12.5H8.33331ZM62.5 12.5C46.4208 12.5 33.3333 25.5875 33.3333 41.6667C33.3333 57.7458 46.4208 70.8333 62.5 70.8333C78.5791 70.8333 91.6666 57.7458 91.6666 41.6667C91.6666 25.5875 78.5791 12.5 62.5 12.5Z"
+                    fill="white" />
+            </svg>
+
+
+            <!--LinkedIn-->
+            <a href="https://www.linkedin.com/in/nathan-jefferson-18594120b/">
+                <svg id="linkedin" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M79.1667 12.5H20.8333C16.2292 12.5 12.5 16.2292 12.5 20.8333V79.1667C12.5 83.7708 16.2292 87.5 20.8333 87.5H79.1667C83.7708 87.5 87.5 83.7708 87.5 79.1667V20.8333C87.5 16.2292 83.7708 12.5 79.1667 12.5ZM37.5 70.8333H26.9875V41.6667H37.5V70.8333ZM32.0583 36.3208C28.8458 36.3208 26.7 34.1792 26.7 31.3208C26.7 28.4625 28.8417 26.3208 32.4125 26.3208C35.625 26.3208 37.7708 28.4625 37.7708 31.3208C37.7708 34.1792 35.6292 36.3208 32.0583 36.3208ZM75 70.8333H64.825V54.8917C64.825 50.4833 62.1125 49.4667 61.0958 49.4667C60.0792 49.4667 56.6875 50.1458 56.6875 54.8917C56.6875 55.5708 56.6875 70.8333 56.6875 70.8333H46.175V41.6667H56.6875V45.7375C58.0417 43.3625 60.7542 41.6667 65.8417 41.6667C70.9292 41.6667 75 45.7375 75 54.8917V70.8333Z"
+                        fill="white" />
+                </svg>
+            </a>
+
+            <!--Tumblr-->
+            <a href="https://www.tumblr.com/mistereagleman">
+                <svg id="tumblr" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M83.3333 8.33333H16.6666C12.0768 8.33333 8.33331 12.0768 8.33331 16.6667V83.3333C8.33331 87.9232 12.0768 91.6667 16.6666 91.6667H83.3333C87.9232 91.6667 91.6666 87.9232 91.6666 83.3333V16.6667C91.6666 12.0768 87.9232 8.33333 83.3333 8.33333ZM70.8333 74.4792C70.8333 74.6745 70.7519 74.8861 70.5892 75C70.3939 75.1953 64.6484 79.1667 54.1666 79.1667C41.5853 79.1667 41.6666 64.1113 41.6666 62.5V45.8333H34.0657C33.6588 45.8333 33.3333 45.5078 33.3333 45.1009V38.1836C33.3333 37.8581 33.4961 37.6139 33.7728 37.5C33.903 37.4512 45.8333 32.2103 45.8333 21.5657C45.8333 21.1588 46.1588 20.8333 46.5657 20.8333H53.4505C53.8411 20.8333 54.1666 21.1588 54.1666 21.5657V37.5H65.9342C66.3086 37.5 66.6666 37.8255 66.6666 38.2324V45.1172C66.6666 45.5078 66.3086 45.8333 65.9342 45.8333H54.1666V62.5C54.1666 62.7441 53.776 67.806 59.1634 67.806C63.5905 67.806 69.6614 66.3574 69.7103 66.3574C69.9544 66.1947 70.2311 66.1947 70.4264 66.3249C70.6706 66.4388 70.8333 66.6829 70.8333 66.9596V74.4792Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <!--Instagram-->
+            <a href="https://www.instagram.com/mistereagleman/">
+                <svg id="instagram" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M33.3333 12.5C21.8292 12.5 12.5 21.8292 12.5 33.3333V66.6667C12.5 78.1708 21.8292 87.5 33.3333 87.5H66.6667C78.1708 87.5 87.5 78.1708 87.5 66.6667V33.3333C87.5 21.8292 78.1708 12.5 66.6667 12.5H33.3333ZM75 20.8333C77.3 20.8333 79.1667 22.7 79.1667 25C79.1667 27.3 77.3 29.1667 75 29.1667C72.7 29.1667 70.8333 27.3 70.8333 25C70.8333 22.7 72.7 20.8333 75 20.8333ZM50 29.1667C61.5042 29.1667 70.8333 38.4958 70.8333 50C70.8333 61.5042 61.5042 70.8333 50 70.8333C38.4958 70.8333 29.1667 61.5042 29.1667 50C29.1667 38.4958 38.4958 29.1667 50 29.1667ZM50 37.5C46.6848 37.5 43.5054 38.817 41.1612 41.1612C38.817 43.5054 37.5 46.6848 37.5 50C37.5 53.3152 38.817 56.4946 41.1612 58.8388C43.5054 61.183 46.6848 62.5 50 62.5C53.3152 62.5 56.4946 61.183 58.8388 58.8388C61.183 56.4946 62.5 53.3152 62.5 50C62.5 46.6848 61.183 43.5054 58.8388 41.1612C56.4946 38.817 53.3152 37.5 50 37.5Z"
+                        fill="white" />
+                </svg>
+            </a>
+
+            <!--Youtube-->
+            <a href="https://www.youtube.com/channel/UC6bkDQRI81rQAWIeKnRJXrw">
+                <svg id="youtube" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M89.925 25.775C88.9666 22.1917 86.1416 19.3667 82.5583 18.4083C76.0583 16.6667 50 16.6667 50 16.6667C50 16.6667 23.9416 16.6667 17.4416 18.4083C13.8583 19.3667 11.0333 22.1917 10.075 25.775C8.33331 32.275 8.33331 50 8.33331 50C8.33331 50 8.33331 67.725 10.075 74.225C11.0333 77.8083 13.8583 80.6333 17.4416 81.5917C23.9416 83.3333 50 83.3333 50 83.3333C50 83.3333 76.0583 83.3333 82.5583 81.5917C86.1458 80.6333 88.9666 77.8083 89.925 74.225C91.6666 67.725 91.6666 50 91.6666 50C91.6666 50 91.6666 32.275 89.925 25.775ZM41.6666 64.4333V35.5667L66.6666 50L41.6666 64.4333Z"
+                        fill="white" />
+                </svg>
+            </a>
+
+            <!--Twitter-->
+            <a href="https://twitter.com/MisterEagleman">
+                <svg id="twitter" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M91.6666 16.6625C88.4166 18.5917 81.8958 21.2208 78.0625 21.9792C77.95 22.0083 77.8583 22.0458 77.75 22.075C74.3625 18.7333 69.7208 16.6625 64.5833 16.6625C54.2291 16.6625 45.8333 25.0583 45.8333 35.4125C45.8333 35.9583 45.7875 36.9625 45.8333 37.4958C31.8625 37.4958 21.2291 30.1792 13.6041 20.8292C12.775 22.9125 12.4125 26.2042 12.4125 29.2958C12.4125 35.1333 16.975 40.8667 24.0791 44.4208C22.7708 44.7583 21.3291 45 19.8291 45C17.4083 45 14.8458 44.3625 12.5 42.4292C12.5 42.5 12.5 42.5667 12.5 42.6417C12.5 50.8 21.1583 56.3542 28.8583 57.9C27.2958 58.8208 24.1458 58.9125 22.6083 58.9125C21.525 58.9125 17.6916 58.4167 16.6666 58.225C18.8083 64.9125 26.5333 68.6708 33.8958 68.8042C28.1375 73.3208 24.1416 74.9958 12.35 74.9958H8.33331C15.7833 79.7708 25.2708 83.3333 34.7791 83.3333C65.7375 83.3333 83.3333 59.7375 83.3333 37.4958C83.3333 37.1375 83.325 36.3875 83.3125 35.6333C83.3125 35.5583 83.3333 35.4875 83.3333 35.4125C83.3333 35.3 83.3 35.1917 83.3 35.0792C83.2875 34.5125 83.275 33.9833 83.2625 33.7083C86.5541 31.3333 89.4083 28.3708 91.6666 24.9958C88.6458 26.3375 85.4041 27.2375 82 27.6458C85.475 25.5625 90.4125 20.5958 91.6666 16.6625Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </footer>
+
+</body>
+
+</html>

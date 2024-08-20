@@ -1,0 +1,416 @@
+html {
+    background: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+/*Pattern*/
+
+
+@font-face {
+    font-family: LordinaSolid;
+    src: url(../Fonts/LondrinaSolid-Regular.ttf);
+}
+
+@font-face {
+    font-family: myHandwriting;
+    src: url(../Fonts/MA.ttf);
+}
+
+.titletxt {
+    font-family: LordinaSolid;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitletxt {
+    font-family: myHandwriting;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+}
+
+/* ------------ INDEX ------------ */
+
+.titlecard {
+    width: 55%;
+    margin: auto;
+}
+
+/* border line under title */
+hr {
+    border-top: 5px solid white;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+}
+
+button {
+    border: 5px solid white;
+    background: black;
+    margin-left: 2%;
+    width: 8rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+
+/* queryselector button margin mobile*/
+
+
+.buttontxt {
+    font-family: myHandwriting;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: #f1d900; /* Start with black */
+    }
+    33% {
+        background-color: #db1251; /* Change to pastel red */
+    }
+    66% {
+        background-color: #0aa4fd; /* Change to light blue */
+    }
+    90% {
+        background-color: #00a16c; /* Change to light green */
+    }
+}
+
+button:hover{
+    animation: colorChange 6s; /* Play the animation on hover */
+    background-color: #00a16c; /* Set final color on hover */
+    border-color: rgb(255, 208, 0);
+}
+
+
+footer {
+    border: solid white 5px;
+    height: 6rem;
+    margin: 0% 5% 0% 5%;
+    bottom: 0;
+    text-align: center;
+}
+
+
+svg{
+    margin: 0% 1% 0% 1%;
+}
+#linkedin path:hover{
+    fill: #0085dd; /* Fill color on hover */
+}
+
+#twitter path:hover{
+    fill: #0ff2fa; /* Fill color on hover */
+}
+
+#discord path:hover{
+    fill: #4812db; /* Fill color on hover */
+}
+
+#instagram path:hover{
+    fill: #ff9113; /* Fill color on hover */
+}
+
+#tumblr path:hover{
+    fill: #0074d3; /* Fill color on hover */
+}
+
+#patreon path:hover{
+    fill: #ff7e05; /* Fill color on hover */
+}
+
+
+#youtube path:hover{
+    fill: #db1251; /* Fill color on hover */
+}
+
+#indeximg {
+    height: 25rem;
+}
+
+#indexmain {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 46.25%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+}
+
+
+/* Contact Form*/
+
+.container {
+    transform: translateY(5%);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c21b1b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  h2 {
+    font-family: myHandwriting;
+    text-align: center;
+  }
+  
+  .form-group {
+    font-size: 80;
+    font-family: myHandwriting;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #c59700;
+    border-radius: 10px; /* Adjust the border-radius for rounded square shape */
+    outline: none; /* Remove the default outline */
+    resize: none; /* Prevent resizing */
+  }
+  
+  textarea {
+    height: 120px;
+  }
+  
+  .buttontxt2 {
+    font-family: myHandwriting;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* gallery nav bar */
+
+.centered-nav {
+  text-align: center;
+  padding: 100px 0; /* Increase the padding-top */
+  font-size: 50px;
+}
+
+.centered-nav a {
+  font-family: myHandwriting;
+  text-decoration: none;
+  color: #ffffff; /* Change color as needed */
+  margin: 0 10px; /* Adjust spacing between links */
+}
+
+.centered-nav a.active {
+  color: yellow; /* Change color to yellow for active link */
+}
+
+/* gallery nav bar */
+
+.centered-nav {
+    text-align: center;
+    padding: 100px 0; /* Increase the padding-top */
+    font-size: 50px;
+  }
+  
+  .centered-nav a {
+    font-family: myHandwriting;
+    text-decoration: none;
+    color: #ffffff; /* Change color as needed */
+    margin: 0 10px; /* Adjust spacing between links */
+  }
+  
+  .centered-nav a.active {
+    color: yellow; /* Change color to yellow for active link */
+  }
+  
+/* gallery nav bar */
+
+.centered-nav {
+    text-align: center;
+    padding: 100px 0; /* Increase the padding-top */
+    font-size: 50px;
+  }
+  
+  .centered-nav a {
+    font-family: myHandwriting;
+    text-decoration: none;
+    color: #ffffff; /* Change color as needed */
+    margin: 0 10px; /* Adjust spacing between links */
+  }
+  
+  .centered-nav a.active {
+    color: yellow; /* Change color to yellow for active link */
+  }
+  
+/* GALLERY VIDEO ITEM BOX */
+
+.gallery {
+    display: absolute;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.gallery-item {
+    display: flex;
+    background-color: black;
+    border: 2px solid white;
+    margin: 0 auto; /* Center the gallery item horizontally */
+    margin-bottom: 30px;
+    max-width: 100%; /* Ensure the item doesn't exceed the width of its container */
+}
+
+.videowrapper {
+    width: 180%; /* Adjust the width to leave space for the info section */
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio (16:9) */
+    height: 100%;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+
+    font-family: myHandwriting;
+    width: 50%; /* Set width to accommodate the info section */
+    padding: 20px 0px 0px 300px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 24px;
+}
+
+.info h3 {
+    font-family: myHandwriting;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+/* Hide the entire gallery item on screens smaller than 768px (typical mobile devices) */
+@media screen and (max-width: 1450px) {
+    .gallery-item {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .videowrapper {
+        width: 300px;
+        position: relative;
+        height: 300px;
+    }
+    
+
+
+    .info h3 {
+        font-size: 24px;
+    }
+}
+
+/* HOCHI MAMA! GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE |  GALLERY PAGE */
+
+.containerimg {
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.art-piece {
+    cursor: pointer;
+}
+
+.art-piece img {
+    width: 100%;
+    height: auto;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.lightbox-content {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
